@@ -1,0 +1,59 @@
+Code
+ZoomAntiSpamBot\
+├── SpamEnforcer.ahk
+├── assets\
+│   ├── logo.png
+│   ├── chat_delete_button.png
+│   ├── waitroom_button.png
+│   ├── duplicate_indicator.png
+│   └── tile_template.png
+├── data\
+│   ├── banned_ids
+│   ├── error_log
+│   ├── flagged_ids
+│   ├── participant_history
+│   ├── participant_log
+│   └── spam_log
+├── scripts\
+│   ├── scan_chat_for_spam_event.ahk
+│   ├── log_and_block_spam.ahk
+│   ├── spam_score_modifiers.ahk
+│   ├── SendSpamToWaitRoom.ahk
+│   ├── ParticipantLog.ahk
+│   └── ShowChatStatusOverlay.ahk
+
+🔹 Fields to Log
+Field	Source / Method
+Participant ID	Index or extracted from Zoom GUI
+Name	From label or OCR if needed
+Region	From GUI element or metadata
+Spam Score	From enforcement loop
+Timestamp	A_Now
+🔹 Output
+Log to data\participant_log.txt
+
+Format: ID | Name | Region | Score | Timestamp
+
+
+SpamEnforcementLoop()	Main loop that checks pixel spam
+OverlayScore(x, y, score)	Displays score overlay near camera position	
+CleanupOverlays:	Destroys all overlays after 10 seconds	
+LogParticipant(cam, score)	Logs participant info to file	
+MarkParticipant(x, y)	Clicks tile template if found	
+TriggerWaitRoom(x, y)	Clicks waitroom button if found	
+GUI Initialization Block	Creates main GUI window	
+SetTimer for loop	Runs enforcement every second	
+#Persistent	Keeps script alive	
+
+
+Main Attributes 
+Pixel ScannerﾠReads pixel colors at defined coordinates to detect spam indicators
+Spam ScoringﾠAssigns scores based on pixel matches and camera labels, lower case, 0s randomly
+Overlay SystemﾠDisplays participants spam scores near camera positions for 10 seconds
+Participant Logger Logs participant ID, label, region, score, and timestamp to a forensic log
+Spam Log GUIﾠDisplays recent spam events in a List View.
+Tile Markerﾠcompares each cam to a tile template to determine a spamscore
+Waitroom TriggerﾠClicks a waitroom button to isolate spam participants or previous offenders
+Chat Toggle LogicﾠTemporarily disables and re-enables chat when spam is happening
+Manual Check ButtonﾠAllows manual triggering of the enforcement loop
+Spam Threshold SliderﾠAdjusts the score threshold for probability to spam based on spamscore

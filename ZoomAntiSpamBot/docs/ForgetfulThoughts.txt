@@ -1,0 +1,66 @@
+BOTS PURPOSE: MONITOR THE CHAT FOR DUPLICATE MESSAGES..... AND TOGGLES CHAT OFF/ON WHEN IT DETECTS ANY MESSAGE SENT MORE THAN TWICE... I HAVE THE GALLERY ON A SEPERATE SCREEN... WITH IT SET TO THE LAST PAGE OF THE GALLERY... TO AUTOMATICALLY GIVE THAT CAM A SPAMSCORE... THE GUI SPAM SCORE SLIDING TOGGLE HAS 3 SETTINGS.. LOW TOLERANCE - 3/7 SCORED- WAIT ROOM.. AND THEN MEDIUM... 4/7 SCORED - WAIT ROOM AND HIGH... 5/7 SCORED- WAIT ROOM. AND IT CONSTANTLY GOES BACK AND FORTH FROM CHECKING CHAT IS AT THE BOTTOM.. AND THEN MONITORING THOSE 5 CAMS ON ROW O (THE FIVE COORDINATES BELOW) 
+
+
+Cams/Coordinates to check every loop: (by right click, for the spamscore)
+1st cam- 1398, 761 (most important) 2nd - 1247, 816 3rd - 1825, 280 4th - 673, 809 5th - 364, 813
+
+
+
+Module	Purpose	Notes
+EnableMeetingChat / DisableMeetingChat	Chat visibility toggle	Controlled via GUI
+ScanChatForDuplicateIndicator	Detects duplicate messages	Chat-bottom check likely embedded
+ScanSpammerToWaitRoom	Enforcement logic	Uses spam score + tolerance
+gallery_view_map	Maps Row O cams	Feeds into scoring engine
+SpamScoreEngine	Central scoring logic	Aggregates chat + visual inputs
+SendChatStatusModifiers	GUI feedback	Updates toggle status
+Flagged_NamesInGalleryRow	Row O spammer tracking	Tied to tolerance thresholds
+log_and_spam_event / log_cleanup	Forensic logging	Ensures audit trail
+DeleteChatMessageByText	Optional cleanup	May be deprecated if enforcement is passive
+ModuleWriter / LogWriter	Internal utilities	Possibly for modular refactor or log formatting
+VerifyDashboard	GUI integrity check	Ensures real-time feedback is accurate
+Verify_DisableScreenshot	Anti-screenshot logic?	Possibly for privacy or tamper detection
+Scan_chat_for_map	Chat-to-ID mapping	Critical for linking messages to cams
+
+instead of the last 5 people waitroomed on the bot.. make that the last 5 people who have entered the room... with 7 characters max of their name... and Participant ID.. and make sure all of this information is being logged in a huge directory of every new participant ID and the start of their screen name (7 characters)
+
+
+
+🎯 DOMBOT’S Core Purpose
+Functionality	Description
+Spam Detection	Detects any message sent more than twice by the same user within the Zoom Meeting Chat window
+Chat Control	Disables chat when spam is detected, then re-enables it after mitigation
+Logging	Logs the participant ID of the spammer for audit trail
+Auto-Ban	If the same user re-enters, they’re silently banned
+Message Removal	Deletes all spam messages from that user in the chat window
+
+banned_ids	Stores participant IDs that have been auto-banned; used for re-entry detection and silent rebanning
+flagged_ids	Tracks users flagged for spam; feeds GUI and logging modules
+participant_history	Full timeline of joins, exits, and actions per user
+spam_log	Detailed log of spam events, including timestamps, message content, and actions taken
+error_log	Captures script failures, OCR mismatches, or UI automation errors for debugging and audit
+
+Disable... then Enable chat will always be used at the same time... no matter if I launch them by KILL SPAM button or if the bot detects spam.. and then needs to kill chat and renable chat right after the spam is detected.. so whichever works best for that
+
+
+
+DONT FORGET THE MAIN PURPOSE OF THIS BOT IS TO DETECT ANY MESSAGE SENT MORE THAN 2 TIMES WITHIN THE PARAMETERS OF THE MEETING CHAT WINDOW... TURNS CHAT OFF/ON THEN LOGS THE PARTICIPANT ID OF WHO EVER SENT THE SPAM MESSAGES... AND AUTO BANS IF THEY RE-ENTER... AND ALSO DELETES THE MESSAGES SENT AS SPAM FROM SAME USER.
+
+
+can you please fix this bot? It performs a forensic automated anti spam bot for zoom meeting chat, while also monitoring 5 mouse click positions for color 222222 and if present, right click then checks if the account has the ability to turn their cam on... and if they have the ability to multi pin... if they are using all lowercase letters... if they have a random 0 in their name... and also if it is a short male name... and the bot assigns a spamscore to each new cam it checks, logs the data about each cam it checks.. such as Participant ID.. Geographic Location.. and Screen name used.. and email on the account to block it.. if possible.. it does all of this while simultaneously making sure that their participant ID isnt on the banned_ids... and if it is- wait room immediately before they have a chance to zoom bomb. Also- I want it to realize someone in Meeting Chat window has sent a message more than once.. when it occurs- enable chat off... and back on within an instant. diverting all the rest of the spam to the host (another robot) Plus, log the spam contents once.. with the name and participant ID and then place that ID on the banned_ids.. to remove faster next time. Mainly be quick to delete the spam, but even quicker to detect a potential spammer and if their spamscore exceeds a threshold- wait room automatically. Assets include, tile template- and if the cam it is checking resembles that picture initially- and thats at 0% tolerance.. not having cam on, not connected to audio, no option to multi-pin.. that is 3/7 things to spamscore.. so if the name was all lowercase.. the score would be 4/7 and thats more than half, wait room. Also there is specific spam that is the devils smiling emoji and fire, repeated, at least 3 times each.. that will occur on meeting chat. and they use a spambot.exe to do it.. and thats the hardest to stop before it already has 6-7 messages out.
+
+FOR THE CHAT AFTER SPAM IS DETECTED AND THE LOG IS FILLED OUT AND THE SPAMMER HAS BEEN WAITROOMED (COPY THE USERNAME, IDENTIFY THE SPAMMER FROM THE BOTTOM HALF OF THE GALLERY, WAITROOM, THEN LOG, THEN DELETE DUPLICATE MESSAGES)
+
+ The duplicate_indicator in assests will be the best photo reference for multiple messages. it needs to right click at the bottom right of the matching png of the actual meeting chat window to delete spam quickly.. there is a chat_delete_button.png in assets to the correct button to hit, after that right click.. then another popup overlay will confirm you want to delete.. and you would just search for  
+
+Please make this easier to read and to use... I want it to be softer edges... bold print (but not too big) The logo to predominantly stand out and be legible move all status such as "Chat : Ready" when it's off and "Chat : Monitoring" when its on.. also make a tally, as a status, of how many cams it spamscores/logs/stores each time it's on... ALSO I want to only check the 5 cams (clicks) IF #222222 is showing... and then only spamscore/log ONCE... it's not necessary to keep going over the same ones.. so only when it detects a new cam has came into the room.. would it start again. Also- can we work in a way to spamscore, then if they are not on cam- left click on 'Ask to start video' - if it say 'Stop video' - they are on cam.. and can move on to the next. thank you so much for your help these past few days
+
+the chat buttons are suppose to be one button, two macros playing in sequence of Disable then enable.. (quickly) Flag spammer button can go? isnt this bot autonomated? send to waitroom? if ANY button it should be an 'admit last waitroomed'... I dont want a view logs button.. the spam sensitivity needs to coordinate with the appropriate spam score that is maximum at the moment but it doesnt say anything.. so maybe the numbers under the correct slide..? also there is no status of the bot so I have no idea if it is working or not... and theres no emojis showing.. just random symbols.. also theres no toggle for on and off.... and no exit completely button....
+
+EACH SPAM SCORE POINT
+1. No Cam On
+2. Connects to Audio AFTER joining
+3. Short male name
+4. All lowercase
+5. Doesn't have the option to multi-pin
+6. Missing "Ask to start video" even though they are off cam
+7. has magic, melaus, adidas, co-host  or similar word in their username.. I'd ideally like to add a keyword to this point of scoring by a modual and it saves to check for it like a regex.

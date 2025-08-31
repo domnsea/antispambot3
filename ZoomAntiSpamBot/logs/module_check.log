@@ -1,0 +1,22 @@
+
+[20250808081402] Running ModuleCheck...
+❌ [20250808081402] Missing: ScanMeetingChatForDuplicateIndicator
+❌ [20250808081402] Missing: RunEnableChat
+❌ [20250808081402] Missing: RunShowChatStatusOverlay
+❌ [20250808081402] Missing: RunSendToWaitRoom
+❌ [20250808081402] Missing: LogSpamIncident
+❌ [20250808081402] Missing: LogError
+❌ [20250808081402] Missing: LogAction
+❌ [20250808081402] Missing: OCR_Region
+[20250808081402] ModuleCheck complete.
+
+[20250808081444] Running ModuleCheck...
+❌ [20250808081444] Missing: ScanMeetingChatForDuplicateIndicator
+❌ [20250808081444] Missing: RunEnableChat
+❌ [20250808081444] Missing: RunShowChatStatusOverlay
+❌ [20250808081444] Missing: RunSendToWaitRoom
+❌ [20250808081444] Missing: LogSpamIncident
+❌ [20250808081444] Missing: LogError
+❌ [20250808081444] Missing: LogAction
+❌ [20250808081444] Missing: OCR_Region
+[20250808081444] ModuleCheck complete.

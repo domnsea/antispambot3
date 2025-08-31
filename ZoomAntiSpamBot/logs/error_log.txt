@@ -1,0 +1,9 @@
+2025-08-22 15:28:53|ERR|SAMPLE cam1 @(1398,761) color=0x9A9C6E
+2025-08-22 15:28:53|ERR|SAMPLE cam2 @(1247,816) color=0x81434A
+2025-08-22 15:28:53|ERR|SAMPLE cam3 @(1825,280) color=0x383838
+2025-08-22 15:28:53|ERR|SAMPLE cam4 @(673,809) color=0x696054
+2025-08-22 15:28:53|ERR|SAMPLE cam5 @(364,813) color=0xC1A6A6
+2025-08-22 20:33:47|ERR|AHK missing: C:\Users\domnsea4\Documents\ZoomAntiSpamBot\DisableMeetingChat.ahk
+2025-08-23 11:22:25|ERR|AHK run failed: C:\Users\domnsea4\Documents\ZoomAntiSpamBot\DisableMeetingChat.ahk (err=2)
+2025-08-23 15:18:03|ERR|AHK run failed: C:\Users\domnsea4\Documents\ZoomAntiSpamBot\DisableMeetingChat.ahk (err=2)
+2025-08-23 20:22:28|ERR|External run failed: C:\Users\domnsea4\Documents\ZoomAntiSpamBot\DisableMeetingChat.ahk (err=2)

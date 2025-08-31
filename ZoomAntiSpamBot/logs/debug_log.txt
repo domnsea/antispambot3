@@ -1,0 +1,169 @@
+2025-08-23 10:36:00|DBG|=== SELFTEST START ===
+2025-08-23 10:36:00|DBG|Version=
+2025-08-23 10:36:00|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 10:36:00|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:36:00|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:36:00|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:36:00|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 10:36:00|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 10:36:00|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:36:00|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:36:00|DBG|AliasCount=0
+2025-08-23 10:36:00|DBG|=== SELFTEST END ===
+2025-08-23 10:38:50|DBG|=== SELFTEST START ===
+2025-08-23 10:38:50|DBG|Version=
+2025-08-23 10:38:50|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 10:38:50|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:50|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:50|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:38:50|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 10:38:50|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 10:38:50|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:50|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:38:50|DBG|AliasCount=0
+2025-08-23 10:38:50|DBG|=== SELFTEST END ===
+2025-08-23 10:38:51|DBG|=== SELFTEST START ===
+2025-08-23 10:38:51|DBG|Version=
+2025-08-23 10:38:51|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 10:38:51|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:51|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:51|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:38:51|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 10:38:51|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 10:38:51|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:38:51|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:38:51|DBG|AliasCount=0
+2025-08-23 10:38:51|DBG|=== SELFTEST END ===
+2025-08-23 10:39:48|DBG|=== SELFTEST START ===
+2025-08-23 10:39:48|DBG|Version=
+2025-08-23 10:39:48|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 10:39:48|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:39:48|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:39:48|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:39:48|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 10:39:48|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 10:39:48|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 10:39:48|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 10:39:48|DBG|AliasCount=0
+2025-08-23 10:39:48|DBG|=== SELFTEST END ===
+2025-08-23 11:20:55|DBG|=== SELFTEST START ===
+2025-08-23 11:20:55|DBG|Version=
+2025-08-23 11:20:55|DBG|Tol= Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 11:20:55|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 11:20:56|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 11:20:56|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 11:20:56|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 11:20:56|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 11:20:56|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 11:20:56|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 11:20:56|DBG|AliasCount=0
+2025-08-23 11:20:56|DBG|=== SELFTEST END ===
+2025-08-23 15:16:28|DBG|=== SELFTEST START ===
+2025-08-23 15:16:28|DBG|Version=
+2025-08-23 15:16:28|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 15:16:28|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 15:16:28|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 15:16:28|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 15:16:28|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 15:16:28|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 15:16:28|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 15:16:29|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 15:16:29|DBG|AliasCount=0
+2025-08-23 15:16:29|DBG|=== SELFTEST END ===
+2025-08-23 19:16:34|DBG|=== SELFTEST START ===
+2025-08-23 19:16:34|DBG|Version=
+2025-08-23 19:16:34|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 19:16:34|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:34|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:34|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:34|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 19:16:34|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 19:16:34|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:34|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:34|DBG|AliasCount=538
+2025-08-23 19:16:34|DBG|=== SELFTEST END ===
+2025-08-23 19:16:36|DBG|=== SELFTEST START ===
+2025-08-23 19:16:36|DBG|Version=
+2025-08-23 19:16:36|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 19:16:36|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:37|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:37|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:37|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 19:16:37|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 19:16:37|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:37|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:37|DBG|AliasCount=538
+2025-08-23 19:16:37|DBG|=== SELFTEST END ===
+2025-08-23 19:16:41|DBG|=== SELFTEST START ===
+2025-08-23 19:16:41|DBG|Version=
+2025-08-23 19:16:41|DBG|Tol=Med Th=4 KW=(?i)\b(magic|melaus|adidas|co[- ]?host)\b RX=
+2025-08-23 19:16:41|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:41|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:41|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:41|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-23 19:16:41|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-23 19:16:41|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-23 19:16:42|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-23 19:16:42|DBG|AliasCount=538
+2025-08-23 19:16:42|DBG|=== SELFTEST END ===
+2025-08-23 20:20:43|DBG|RunExternal via AHK: C:\Program Files\AutoHotkey\AutoHotkey.exe :: C:\Users\domnsea4\Documents\ZoomAntiSpamBot\DisableMeetingChat.ahk
+2025-08-25 21:25:40|DBG|=== SELFTEST START ===
+2025-08-25 21:25:40|DBG|Version=
+2025-08-25 21:25:40|DBG|Tol=Med Th=4 KW=(?i)\b(magic/melaus/adidas/co[- ]?host)\b RX=
+2025-08-25 21:25:40|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:25:40|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:25:40|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:25:40|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-25 21:25:40|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-25 21:25:40|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:25:40|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:25:40|DBG|AliasCount=0
+2025-08-25 21:25:40|DBG|=== SELFTEST END ===
+2025-08-25 21:38:57|DBG|=== SELFTEST START ===
+2025-08-25 21:38:57|DBG|Version=
+2025-08-25 21:38:57|DBG|Tol=Med Th=4 KW=(?i)\b(magic/melaus/adidas/co[- ]?host)\b RX=
+2025-08-25 21:38:57|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:38:57|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:38:57|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:38:57|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-25 21:38:57|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-25 21:38:57|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:38:57|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:38:57|DBG|AliasCount=0
+2025-08-25 21:38:57|DBG|=== SELFTEST END ===
+2025-08-25 21:39:02|DBG|=== SELFTEST START ===
+2025-08-25 21:39:02|DBG|Version=
+2025-08-25 21:39:02|DBG|Tol=Med Th=4 KW=(?i)\b(magic/melaus/adidas/co[- ]?host)\b RX=
+2025-08-25 21:39:02|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:39:02|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:39:02|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:39:02|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-25 21:39:02|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-25 21:39:02|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-25 21:39:02|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-25 21:39:02|DBG|AliasCount=0
+2025-08-25 21:39:02|DBG|=== SELFTEST END ===
+2025-08-26 01:41:06|DBG|=== SELFTEST START ===
+2025-08-26 01:41:06|DBG|Version=
+2025-08-26 01:41:06|DBG|Tol=Med Th=4 KW=(?i)\b(magic/melaus/adidas/co[- ]?host)\b RX=
+2025-08-26 01:41:06|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:06|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:06|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-26 01:41:07|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-26 01:41:07|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-26 01:41:07|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:07|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-26 01:41:07|DBG|AliasCount=0
+2025-08-26 01:41:07|DBG|=== SELFTEST END ===
+2025-08-26 01:41:10|DBG|=== SELFTEST START ===
+2025-08-26 01:41:10|DBG|Version=
+2025-08-26 01:41:10|DBG|Tol=Med Th=4 KW=(?i)\b(magic/melaus/adidas/co[- ]?host)\b RX=
+2025-08-26 01:41:10|DBG|name=adidas score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:10|DBG|name=Co Host score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:10|DBG|name=aa score=2 reasons=short_or_alias,all_lowercase
+2025-08-26 01:41:10|DBG|name=L33t score=1 reasons=all_lowercase
+2025-08-26 01:41:10|DBG|name=normal User score=1 reasons=all_lowercase
+2025-08-26 01:41:10|DBG|name=melaus score=2 reasons=all_lowercase,keyword_hit
+2025-08-26 01:41:10|DBG|name=Jane score=2 reasons=short_or_alias,all_lowercase
+2025-08-26 01:41:10|DBG|AliasCount=0
+2025-08-26 01:41:10|DBG|=== SELFTEST END ===
