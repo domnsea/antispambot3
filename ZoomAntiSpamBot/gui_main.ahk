@@ -955,7 +955,7 @@ class ZoomAntiSpamBot {
             GuiControl,, TolMed, 1
 
         Gui, Show, w520 h420
-        Gosub, Z_UpdateStatus
+        this.UpdateStatusFn()
         Gui, +LastFound
         WinGet, gh, ID, A
         this.GuiHwnd := gh
@@ -1333,7 +1333,7 @@ if !FileExist(gBot.file_chatlog) {
     gBot.StatusFlash("Monitoring ON | chatlog MISSING")
     gBot.ScanFiveCamsAndScore()
 }
-Gosub, Z_UpdateStatus
+gBot.UpdateStatusFn()
 Return
 
 
@@ -1343,7 +1343,7 @@ Gui, Submit, NoHide
 GuiControlGet, tolLowVal,, TolLow
 GuiControlGet, tolMedVal,, TolMed
 gBot.Tolerance := (tolLowVal?"Low":(tolMedVal?"Med":"High"))
-Gosub, Z_UpdateStatus
+gBot.UpdateStatusFn()
 Return
 
 
@@ -1368,7 +1368,7 @@ Return
 Z_StopNow:
 gBot.BotEnabled := 0
 GuiControl,, BotEnabled, 0
-Gosub, Z_UpdateStatus
+gBot.UpdateStatusFn()
 Return
 
 
@@ -1379,7 +1379,7 @@ GuiControl,, BotEnabled, % (gBot.BotEnabled ? 1 : 0)
 GuiControl,, TolLow, % (gBot.Tolerance="Low" ? 1 : 0)
 GuiControl,, TolMed, % (gBot.Tolerance="Med" ? 1 : 0)
 GuiControl,, TolHigh, % (gBot.Tolerance="High" ? 1 : 0)
-Gosub, Z_UpdateStatus
+gBot.UpdateStatusFn()
 gBot.StatusFlash("Config reloaded")
 Return
 
@@ -1389,7 +1389,7 @@ gBot.BotEnabled := !gBot.BotEnabled
 if (gBot.BotEnabled)
 gBot.ResetSession()
 GuiControl,, BotEnabled, % (gBot.BotEnabled ? 1 : 0)
-Gosub, Z_UpdateStatus
+gBot.UpdateStatusFn()
 Return
 
 
